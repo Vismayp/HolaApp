@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "741443749761",
+    "firebase_url": "https://koddev-3ee63-default-rtdb.firebaseio.com",
+    "project_id": "koddev-3ee63",
+    "storage_bucket": "koddev-3ee63.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:741443749761:android:1ed2207a3140bb3b688a80",
+        "android_client_info": {
+          "package_name": "com.example.testapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "741443749761-j1l388vuo94nkf7770d7fpgoudfmktp0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAt6T6VpUhvMepNvVscRtIYsYc9jboeWEo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "741443749761-j1l388vuo94nkf7770d7fpgoudfmktp0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

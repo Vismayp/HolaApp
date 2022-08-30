@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Hola</string>
+    <string name="user_name">User Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="forget_your_password">Forgot Your Password?</string>
+    <string name="create_new_account">Create New Account</string>
+    <string name="send">Send</string>
+    <string name="have_account_register">Have Account? <font color='#e7008a'> \nLogin</font></string>
+    <string name="profile">Profile</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="update_profile">Update Profile?</string>
+    <string name="click_to_change_the_image">Click to change the Image</string>
+    <string name="update">Update</string>
+    <string name="users">Users:</string>
+    <string name="your_message">Type Message Here !!!!</string>
+    <string name="sendmessage">sendMessage</string>
+    <string name="the_user_message">The User Message</string>
+    <string name="already_have_an_account">Already have an Account?</string>
+    <string name="new_user_create_account">New User?\nCreate Account</string>
+    <string name="choose_user">All Users:</string>
+    <string name="reset_password">Reset Password</string>
+</resources>

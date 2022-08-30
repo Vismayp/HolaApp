@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/alegreya_sc_black</item>
+        <item>@font/alegreya_sc_bold</item>
+        <item>@font/arbutus</item>
+        <item>@font/balthazar</item>
+        <item>@font/bellota_bold</item>
+        <item>@font/cardo_bold</item>
+        <item>@font/charm</item>
+        <item>@font/gabriela</item>
+    </array>
+</resources>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F4ECEC"
+    tools:context=".RegisterActivity">
+
+    <TextView
+        android:layout_width="212dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/alegreya_sc_black"
+        android:text="@string/register"
+        android:textAlignment="center"
+        android:textColor="@color/blueWhite"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profileImage"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/account" />
+
+    <EditText
+        android:id="@+id/userNameRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/strock_edit"
+        android:drawablePadding="5dp"
+        android:fontFamily="@font/cardo_bold"
+        android:hint="@string/user_name"
+        android:padding="12dp"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/emailRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/strock_edit"
+        android:drawablePadding="5dp"
+        android:fontFamily="@font/cardo_bold"
+        android:hint="@string/email"
+        android:padding="12dp"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/passwordRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/strock_edit"
+        android:drawablePadding="5dp"
+
+        android:fontFamily="@font/cardo_bold"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:padding="12dp"
+        android:textSize="20sp" />
+
+    <ProgressBar
+        android:id="@+id/progressBarRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:theme="@style/progressStyle" />
+
+    <Button
+        android:id="@+id/buttonRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/strock_btn"
+        android:fontFamily="@font/gabriela"
+        android:text="@string/register"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/blueWhite" />
+
+    <TextView
+        android:id="@+id/haveAccount"
+        android:layout_width="206dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:fontFamily="@font/balthazar"
+        android:text="@string/have_account_register"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="28sp" />
+
+</LinearLayout>
